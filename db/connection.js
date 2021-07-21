@@ -10,5 +10,6 @@ const pool = mysql.createPool({
 });
 
 console.log("Connected to the database");
+console.log("--------WELCOME TO EMPLOYEE TRACKER--------");
 
 module.exports = pool;
